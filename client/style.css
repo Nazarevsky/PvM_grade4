@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-enter {
+    width: 700px;
+    height: 270px;
+    position: relative;
+    top: -15%;
+}
+
+.message-enter-form {
+    width: 100%;
+    height: calc(100% + 10px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.message-enter-form-panel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #99be99;
+    border-radius: 20px;
+}
+
+.shadow {
+    background: #789478;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.message-enter-title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Impact, serif;
+    font-size: 40px;
+    color: #72af72;
+    text-shadow: -1px 4px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.common-text {
+    font-family: Impact, serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.message-enter-form-panel-data {
+    margin: 10px;
+}
+
+.message-enter-form-panel-data {
+    display: grid;
+    grid-auto-rows: auto auto auto;
+    grid-gap: 10px;
+
+}
+
+.input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.btn {
+    font-size: 20px;
+}
