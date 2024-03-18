@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./server:/app/server
+    command: ./main
+    ports:
+      - "8000:8000"
+
+  client:
+    image: nginx:alpine
+    ports:
+      - "8001:80"
+    volumes:
+      - ./client:/usr/share/nginx/html

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лб1</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="message-enter">
+    <div class="message-enter-title">
+        Лабораторна робота 1. Варіант 2. Зaміна круглих дужок на квадратні
+    </div>
+    <div class="message-enter-form">
+
+<!--        Тінь панелі вводу-->
+        <div class="message-enter-form-panel shadow"></div>
+
+<!--        Панель з полями вводу (фон)-->
+        <div class="message-enter-form-panel">
+
+<!--            Поля вводу-->
+            <div class="message-enter-form-panel-data">
+                <div class="common-text">
+                    Введіть повідомлення з круглими дужками
+                </div>
+
+<!--                Поле вводу повідомлення-->
+                <input class="input" type="text" id="message" placeholder="Повідомлення">
+
+<!--                Кнопка відправки даних на сервер-->
+                <button onclick="sendData()" class="btn">Змінити</button>
+
+<!--                Відповідь-->
+                <div class="common-text" style="margin-top: 30px" id="result">Відповідь:</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
